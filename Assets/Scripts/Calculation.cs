@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Calculation : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    private void Start()
     {
-        print(add(13, 2));
-        print("hey");
+        print(add(4, 3));
+        print(sub(10, 4);
     }
 
-    // Update is called once per frame
-    void Update()
+    int sub(int a, int b)
     {
-        
+        return a - b;
     }
 
     int add(int fst, int snd)
